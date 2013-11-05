@@ -8,7 +8,14 @@
 #                                                                         #
 ###########################################################################
 
-print("Kuule osta elevant ära!")
+print("> Kuule osta elevant ära!")
 while True:
-    vastus = input("vasta: ").lower()
-    print("Seda räägivad kõik, et " + vastus + " aga osta elevant ära!")
+    try:
+        vastus = input("< ").lower()
+        print("> Seda räägivad kõik, et " + vastus + " aga osta elevant ära!")
+    except (EOFError, KeyboardInterrupt) as e:
+        print("\033[4D> Mis sul viga on, et elevanti ei taha ??")
+        exit()
+    except:
+        print("Error, mingine kala ujus sisse")
+        exit()
