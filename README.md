@@ -1,10 +1,12 @@
 Kuule osta elevant ära!
 =======================
 ```
-< Ma ei taha
-> Kõik ütlevad, et ma ei taha aga osta elevant ära!
-< Sõida seenele oma elevandiga
-> Kõik ütlevad, et sõida seenele oma elevandiga aga osta elevant ära!
+> Kuule osta elevant ära!
+< Ei taha
+> Seda räägivad kõik, et ei taha aga osta elevant ära!
+< aga mul pole ju raha
+> Seda räägivad kõik, et aga mul pole ju raha aga osta elevant ära!
+< Mine metsa idikas, mul pole selle jama jaoks aega
 ....
 ```
 
