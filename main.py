@@ -10,5 +10,5 @@
 
 print("Kuule osta elevant ära!")
 while True:
-    vastus = input("vasta: ")
-    print("Seda räägivad kõik, et " + vastus + " aga osta elevant ära")
+    vastus = input("vasta: ").lower()
+    print("Seda räägivad kõik, et " + vastus + " aga osta elevant ära!")
