@@ -9,6 +9,7 @@ Kuule osta elevant ära!
 < Mine metsa idikas, mul pole selle jama jaoks aega
 ....
 ```
+![Ekraanipilt](http://i.imgur.com/Yomqnz0.png)
 
 Nõudmised
 ---------
